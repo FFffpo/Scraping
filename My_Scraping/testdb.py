@@ -10,3 +10,10 @@ print(cur.fetchone())
 
 cur.close()
 conn.close()
+
+# 转换支持中文
+# ALTER DATABASE wiki_threads CHARACTER SET=utf8mb4 COLLATE utf8mb4_unicode_ci;
+# ALTER TABLE pages CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+# ALTER TABLE pages CHANGE title title VARCHAR(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+# TRUNCATE TABLE pages;清空数据表
