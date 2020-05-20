@@ -21,7 +21,7 @@ def readPDF(pdfFile):
 
 
 # pdfFile = urlopen('http://pythonscraping.com/pages/warandpeace/chapter1.pdf')
-pdfFile = open('C:/Users/jzwdq/Desktop/aa.pdf', 'rb')
+pdfFile = open('C:/Users/jzwdq/Desktop/Exercise for Introduction.pdf', 'rb')
 outputString = readPDF(pdfFile)
 print(outputString)
 pdfFile.close()

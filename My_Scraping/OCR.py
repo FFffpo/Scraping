@@ -26,7 +26,7 @@ def getConfidence(image):
     return np.average(confidences, weights=numChars), sum(numChars)
 
 
-filePath = 'C:\\Users\\jzwdq\\Desktop\\1.png'
+filePath = 'C:\\Users\\jzwdq\\Desktop\\Exercise for Introduction.pdf'
 
 start = 40
 step = 5
